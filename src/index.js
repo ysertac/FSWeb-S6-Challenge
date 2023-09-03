@@ -4,12 +4,12 @@ import { createRoot } from "react-dom/client";
 import { worker } from "./mocks/browser";
 
 import App from "./App";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 import "./App.css";
 
-worker.start();
+//worker.start();
 
 const container = document.getElementById("root");
-const root = createRoot(container)
+const root = createRoot(container);
 root.render(<App />);

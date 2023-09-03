@@ -1,0 +1,11 @@
+.main-div {
+  margin: 0 auto;
+}
+
+.accordion-button {
+  justify-content: center;
+}
+
+.accordion-button::after {
+  display: none;
+}
